@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "61026b489dfe7f850a74a1af"
+  },
+  "Codigo": "01",
+  "Nombre": "Pantalla",
+  "Precio": "55"
+},{
+  "_id": {
+    "$oid": "61026bb19dfe7f850a74a1b3"
+  },
+  "Codigo": "02",
+  "Nombre": "Teclado",
+  "Precio": 42
+},{
+  "_id": {
+    "$oid": "61026bdb9dfe7f850a74a1b4"
+  },
+  "Codigo": "03",
+  "Nombre": "Raton",
+  "Precio": 12
+}]

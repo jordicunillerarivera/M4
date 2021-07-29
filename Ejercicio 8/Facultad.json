@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "61027d6c9dfe7f850a74a1e2"
+  },
+  "Codigo": "01",
+  "Nombre": "Facultad de Medicina de Cabo buena esperanza"
+},{
+  "_id": {
+    "$oid": "61027d859dfe7f850a74a1e3"
+  },
+  "Codigo": "02",
+  "Nombre": "Facultad2"
+},{
+  "_id": {
+    "$oid": "61027d939dfe7f850a74a1e4"
+  },
+  "Codigo": "03",
+  "Nombre": "Facultad3"
+}]

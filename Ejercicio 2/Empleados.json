@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "61026dcc9dfe7f850a74a1b5"
+  },
+  "DNI": "39943256F",
+  "Nombre": "Jordi",
+  "Apellidos": "Cunillera",
+  "Departamento": "Informatica"
+},{
+  "_id": {
+    "$oid": "61026df09dfe7f850a74a1b6"
+  },
+  "DNI": "45687256F",
+  "Nombre": "Maria",
+  "Apellidos": "Gonzalez",
+  "Departamento": "Ventas"
+},{
+  "_id": {
+    "$oid": "61026e219dfe7f850a74a1b7"
+  },
+  "DNI": "5646862E",
+  "Nombre": "Raul",
+  "Apellidos": "Rivera",
+  "Departamento": "Conserjeria"
+}]

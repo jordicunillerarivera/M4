@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "610275139dfe7f850a74a1c7"
+  },
+  "DNI": "39943256F",
+  "NomApels": "Jordi"
+},{
+  "_id": {
+    "$oid": "6102755c9dfe7f850a74a1c8"
+  },
+  "DNI": "46587523G",
+  "NomApels": "Marta"
+},{
+  "_id": {
+    "$oid": "6102758a9dfe7f850a74a1c9"
+  },
+  "DNI": "7536984N",
+  "NomApels": "Jose"
+}]

@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "610278589dfe7f850a74a1d0"
+  },
+  "CodigoPieza": "125",
+  "idProveedor": "01",
+  "precio": "5"
+},{
+  "_id": {
+    "$oid": "6102788d9dfe7f850a74a1d1"
+  },
+  "CodigoPieza": "475",
+  "idProveedor": "02",
+  "precio": "4"
+},{
+  "_id": {
+    "$oid": "610278ad9dfe7f850a74a1d2"
+  },
+  "CodigoPieza": "246",
+  "idProveedor": "03",
+  "precio": "6"
+}]

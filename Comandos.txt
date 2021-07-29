@@ -1,0 +1,186 @@
+Ejercicio 1:
+use tiendaInformatica
+
+db.createCollection("Fabricantes")
+
+db.Fabricantes.insertOne({"Codigo" : "01", "Nombre" : "Fabricante1"})
+db.Fabricantes.insertOne({"Codigo" : "02", "Nombre" : "Fabricante2"})
+db.Fabricantes.insertOne({"Codigo" : "03", "Nombre" : "Fabricante3"})
+
+db.createCollection("Articulos")
+
+db.Articulos.insertOne({"Codigo":"01","Nombre":"Pantalla","Precio":"55"})
+db.Articulos.insertOne({"Codigo":"02","Nombre":"Teclado","Precio":
+db.Articulos.insertOne({"Codigo":"03","Nombre":"Raton","Precio":12})
+
+---------------------------------------------------
+
+Ejercicio2:
+use Empleados
+
+db.createCollection("Empleados")
+
+db.Empleados.insertOne({"DNI" : "39943256F", "Nombre":"Jordi","Apellidos":"Cunillera","Departamento":"Informatica"})
+db.Empleados.insertOne({"DNI" : "45687256F", "Nombre":"Maria","Apellidos":"Gonzalez","Departamento":"Ventas"})
+db.Empleados.insertOne({"DNI" : "5646862E", "Nombre":"Raul","Apellidos":"Rivera","Departamento":"Conserjeria"})
+
+db.createCollection("Departamentos")
+
+db.Departamentos.insertOne({"Codigo":"01","Nombre":"Informatica","Presupuesto":"20000"})
+db.Departamentos.insertOne({"Codigo":"02","Nombre":"Ventas","Presupuesto":"15000"})
+db.Departamentos.insertOne({"Codigo":"03","Nombre":"Conserjeria","Presupuesto":"25000"})
+
+---------------------------------------------------------
+
+Ejercicio3
+use losAlmacenes
+
+db.createCollection("Almacenes")
+
+db.Almacenes.insertOne({"Codigo":"01","Lugar":"Barcelona","Capacidad":5})
+db.Almacenes.insertOne({"Codigo":"02","Lugar":"Madrid","Capacidad":4})
+db.Almacenes.insertOne({"Codigo":"03","Lugar":"Zaragoza","Capacidad":6})
+
+db.createCollection("Cajas")
+
+db.Cajas.insertOne({"NumReferencia":"42f","Contenido":"Carro"})
+db.Cajas.insertOne({"NumReferencia":"61j","Contenido":"Navaja"})
+db.Cajas.insertOne({"NumReferencia":"07k","Contenido":"Lego"})
+
+-----------------------------------------------------------------
+
+Ejercicio4
+use peliculasysalas
+
+db.createCollection("Salas")
+
+db.Salas.insertOne({"Codigo":"01","Nombre":"Sala 1"})
+db.Salas.insertOne({"Codigo":"02","Nombre":"Sala 02"})
+db.Salas.insertOne({"Codigo":"03","Nombre":"Sala 3D"})
+
+db.createCollection("Peliculas")
+
+db.Peliculas.insertOne({"Codigo":"01","Nombre":"El titanic","CalificacionEdad":"16"})
+db.Peliculas.insertOne({"Codigo":"02","Nombre":"Star Wars","CalificacionEdad":"18"})
+db.Peliculas.insertOne({"Codigo":"03","Nombre":"Doraemon","CalificacionEdad":"12"})
+
+-----------------------------------------------------------------
+
+Ejercicio5
+use losDirectores
+
+db.createCollection("Directores")
+
+db.Directores.insertOne({"DNI":"39943256F","NomApels":"Jordi"})
+db.Directores.insertOne({"DNI":"46587523G","NomApels":"Marta"})
+db.Directores.insertOne({"DNI":"7536984N","NomApels":"Jose"})
+
+db.createCollection("Despachos")
+
+db.Despachos.insertOne({"Numero":"001","Capacidad":"20"})
+db.Despachos.insertOne({"Numero":"002","Capacidad":"32"})
+db.Despachos.insertOne({"Numero":"003","Capacidad":"17"})
+
+-----------------------------------------------------------------
+
+Ejercicio6
+use piezasProveedores
+
+db.createCollection("Piezas")
+
+db.Piezas.insertOne({"Codigo":"125","Nombre":"Tornillo"})
+db.Piezas.insertOne({"Codigo":"246","Nombre":"Tuerca"})
+db.Piezas.insertOne({"Codigo":"475","Nombre":"Clavo"})
+
+db.createCollection("Suministra")
+
+db.Suministra.insertOne({"CodigoPieza":"125","idProveedor":"01","precio":"5"})
+db.Suministra.insertOne({"CodigoPieza":"475","idProveedor":"02","precio":"4"})
+db.Suministra.insertOne({"CodigoPieza":"246","idProveedor":"03","precio":"6"})
+
+db.createCollection("Proveedores")
+
+db.Proveedores.insertOne({"id":"01","Nombre":"Jose"})
+db.Proveedores.insertOne({"id":"02","Nombre":"Anna"})
+db.Proveedores.insertOne({"id":"03","Nombre":"Adrian"})
+
+----------------------------------------------------------
+
+Ejercicio7
+use grandesAlmacenes
+
+db.createCollection("Cajeros")
+
+db.Cajeros.insertOne({"Codigo":"01","NomApels":"Jordi"})
+db.Cajeros.insertOne({"Codigo":"02","NomApels":"Maria"})
+db.Cajeros.insertOne({"Codigo":"03","NomApels":"Rocio"})
+
+db.createCollection("Productos")
+
+db.Productos.insertOne({"Codigo":"01","Nombre":"Lejia","Precio":"1"})
+db.Productos.insertOne({"Codigo":"02","Nombre":"Vaso","Precio":"54"})
+db.Productos.insertOne({"Codigo":"03","Nombre":"Sabana","Precio":"5"})
+
+db.createCollection("MaquinasRegistradoras")
+
+db.MaquinasRegistradoras.insertOne({"Codigo":"01","Piso":"2"})
+db.MaquinasRegistradoras.insertOne({"Codigo":"02","Piso":"3"})
+db.MaquinasRegistradoras.insertOne({"Codigo":"03","Piso":"2"})
+
+db.createCollection("Venta")
+
+db.Venta.insertOne({"Cajero":"02","Maquina":"01","Producto":"01"})
+db.Venta.insertOne({"Cajero":"03","Maquina":"02","Producto":"03"})
+db.Venta.insertOne({"Cajero":"01","Maquina":"03","Producto":"02"})
+
+--------------------------------------------------------
+
+Ejercicio8
+use Investigadores
+
+db.createCollection("Facultad")
+
+db.Facultad.insertOne({"Codigo":"01", "Nombre":"Facultad de Medicina de Cabo buena esperanza"})
+db.Facultad.insertOne({"Codigo":"02", "Nombre":"Facultad2"})
+db.Facultad.insertOne({"Codigo":"03", "Nombre":"Facultad3"})
+
+db.createCollection("Investigadores")
+
+db.Investigadores.insertOne({"DNI":"39942356F","NomApels" : "Jordi", "Facultad":"01"})
+db.Investigadores.insertOne({"DNI":"546854654564G","NomApels" : "Pascu", "Facultad":"03"})
+db.Investigadores.insertOne({"DNI":"5465885","NomApels" : "Miguel", "Facultad":"02"})
+
+db.createCollection("Equipos")
+
+db.Equipos.insertOne({"NumSerie":"01","Nombre":"Jose Antonio", "Facultad": "02"})
+db.Equipos.insertOne({"NumSerie":"02","Nombre":"Maria", "Facultad": "01"})
+db.Equipos.insertOne({"NumSerie":"03","Nombre":"Azul", "Facultad": "03"})
+
+db.createCollection("Reserva")
+
+db.Reserva.insertOne({"DNI":"5468452","NumSerie":"02", "Comienzo":"24-05-2020", "Fin":"29-07-2021"})
+db.Reserva.insertOne({"DNI":"845632","NumSerie":"01", "Comienzo":"18-04-2019", "Fin":"19-10-2020"})
+db.Reserva.insertOne({"DNI":"7867655","NumSerie":"03", "Comienzo":"18-06-2019", "Fin":"19-12-2020"})
+
+-----------------------------------------------------------------
+
+Ejercicio9
+Use Cientificos
+
+db.createCollection("Cientificos")
+
+db.Cintificos.insertOne({"DNI":"12345678", "NomApels":"Paquito"})
+db.Cintificos.insertOne({"DNI":"45678912", "NomApels":"Antonio"})
+db.Cintificos.insertOne({"DNI":"85296413", "NomApels":"Darth Vader"})
+
+db.createCollection("Proyecto")
+
+db.Proyecto.insertOne({"id":"01", "Nombre":"Proyecto1"})
+db.Proyecto.insertOne({"id":"02", "Nombre":"Proyecto2"})
+db.Proyecto.insertOne({"id":"03", "Nombre":"Proyecto3"})
+
+db.createCollection("AsignadoA")
+
+db.AsignadoA.insertOne({"Cientifico":"45678912", "Proyecto":"03"})
+db.AsignadoA.insertOne({"Cientifico":"85296413", "Proyecto":"01"})
+db.AsignadoA.insertOne({"Cientifico":"12345678", "Proyecto":"02"})

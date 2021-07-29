@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "610277589dfe7f850a74a1cd"
+  },
+  "Codigo": "125",
+  "Nombre": "Tornillo"
+},{
+  "_id": {
+    "$oid": "6102776b9dfe7f850a74a1ce"
+  },
+  "Codigo": "246",
+  "Nombre": "Tuerca"
+},{
+  "_id": {
+    "$oid": "610277c29dfe7f850a74a1cf"
+  },
+  "Codigo": "475",
+  "Nombre": "Clavo"
+}]

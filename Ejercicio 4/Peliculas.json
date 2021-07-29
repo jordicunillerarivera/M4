@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "610273e59dfe7f850a74a1c4"
+  },
+  "Codigo": "01",
+  "Nombre": "El titanic",
+  "CalificacionEdad": "16"
+},{
+  "_id": {
+    "$oid": "610274219dfe7f850a74a1c5"
+  },
+  "Codigo": "02",
+  "Nombre": "Star Wars",
+  "CalificacionEdad": "18"
+},{
+  "_id": {
+    "$oid": "610274449dfe7f850a74a1c6"
+  },
+  "Codigo": "03",
+  "Nombre": "Doraemon",
+  "CalificacionEdad": "12"
+}]

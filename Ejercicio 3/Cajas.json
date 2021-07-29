@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "610271739dfe7f850a74a1be"
+  },
+  "NumReferencia": "42f",
+  "Contenido": "Carro"
+},{
+  "_id": {
+    "$oid": "610271979dfe7f850a74a1bf"
+  },
+  "NumReferencia": "61j",
+  "Contenido": "navaja"
+},{
+  "_id": {
+    "$oid": "610271c89dfe7f850a74a1c0"
+  },
+  "NumReferencia": "07k",
+  "Contenido": "Lego"
+}]

@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "61027a969dfe7f850a74a1d9"
+  },
+  "Codigo": "01",
+  "Nombre": "Lejia",
+  "Precio": "1"
+},{
+  "_id": {
+    "$oid": "61027ab59dfe7f850a74a1da"
+  },
+  "Codigo": "02",
+  "Nombre": "Vaso",
+  "Precio": "54"
+},{
+  "_id": {
+    "$oid": "61027ae39dfe7f850a74a1db"
+  },
+  "Codigo": "03",
+  "Nombre": "Sabana",
+  "Precio": "5"
+}]
